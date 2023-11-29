@@ -7,5 +7,85 @@
 </head>
 <body>
     <h1>hola mundo</h1>
+    <ul>
+        <li>Pikachu</li>
+        <li>Charmander</li>
+        <li>Bulbasur</li>
+    </ul>
+    <ol>
+        <li>Pikachu</li>
+        <li>Charmander</li>
+        <li>Bulbasur</li>
+    </ul>
+
+    <table>
+        <thead>
+            <tr>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+    <p>esta es mi negrita <strong>con strong</strong> y negrita <b>con b</b></p>
+    <p>este es mi texto en cursiva <em>con em</em> y este <i>con i</i></p>
+    <p>este es mi texto <span>con span</span>, no hace nada así de primeras, pero se puede modificar</p>
+
+    <p>Etiquetas semanticas</p>
+    <header>
+        <nav></nav>
+    </header>
+    <main>
+        <section>
+            <article></article>
+        </section>
+        <aside></aside>
+    </main>
+    <footer></footer>
+
+    <div>
+        <p></p>
+    </div>
+    <div>
+        <p></p>
+    </div>
+
+    <form action="">
+        <fieldset>
+            <div>
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" placeholder="Inserte nombre" minlength="2" maxlength="10"/>
+            </div>
+            
+            <input type="password" name="pass" placeholder="Inserte contraseña" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,12}$" oninvalid="this.setCustomValidity('No cumple el patron')" />
+            <input type="date"/>
+            <input type="number"/>
+            <input type="color" value="#555555"/>
+            <input type="file"/>
+            <input type="button" value="enviar"/>
+            <input type="checkbox" />
+            <input type="radio" name="animal" /> Perro
+            <input type="radio" name="animal" /> Gato
+            <input type="radio" name="animal" /> Pajaro
+        </fieldset>
+
+        <fieldset>
+            <select>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+    
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+    
+            <button type="submit">Enviar</button> 
+            <button type="reset">Resetear</button>
+            <button type="button">Mas</button>
+        </fieldset>
+        
+    </form>
 </body>
 </html>
