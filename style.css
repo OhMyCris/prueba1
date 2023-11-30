@@ -1,0 +1,31 @@
+div{
+    background-color: red;
+    width: 300px; /* ancho*/
+    height: 300px; /* alto*/
+    padding: 10px 20px 30px 40px; /* espacio dentro de nuestra caja, asignamos en sentido horario (arriba, derecha, abajo, izquierda)*/
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+
+    margin: 20px 20px 20px 20px; /* espacio por fuera de nuestra caja */
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+    border: 20px solid #333; /*le pone un borde a nuestra caja*/
+    border-width: 10px;
+    border-color: aliceblue;
+    border-style: dotted;
+    border-radius: 10px;
+    border-right: 20px solid #9b2f2f;
+}
+
+.pepito {
+    background-color: blue;
+}
+
+#pepito {
+    background-color: green;
+}

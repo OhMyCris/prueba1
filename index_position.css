@@ -1,0 +1,10 @@
+div {
+    width: 300vw;
+    height: 300px;
+    background-color: red;
+}
+
+* { /* El asterisco es un selector universal */
+    margin: 0px;
+    padding: 0px;
+}
